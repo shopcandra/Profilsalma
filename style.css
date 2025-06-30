@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+.profile p {
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.link-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.link-item i {
+    font-size: 20px;
+    margin-right: 15px;
+    width: 20px;
+    text-align: center;
+}
+
+.link-item span {
+    flex: 1;
+}
+
+/* Link colors */
+.tiktok { background-color: #00000020; border-left: 4px solid #000000; }
+.tiktok:hover { background-color: #00000030; }
+.whatsapp { background-color: #25D36620; border-left: 4px solid #25D366; }
+.whatsapp:hover { background-color: #25D36630; }
+.whatsapp-channel { background-color: #128C7E20; border-left: 4px solid #128C7E; }
+.whatsapp-channel:hover { background-color: #128C7E30; }
+.instagram { background-color: #e4405f20; border-left: 4px solid #e4405f; }
+.instagram:hover { background-color: #e4405f30; }
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .container {
+        padding: 15px;
+    }
+    
+    .link-item {
+        padding: 12px 15px;
+    }
+}
