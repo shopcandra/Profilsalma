@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slm</title>
+    <style>
+        :root {
+            --primary-color: #ff69b4;
+            --secondary-color: #ffb6c1;
+            --dark-pink: #db7093;
+            --text-color: #333;
+            --white: #fff;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #fff5f7;
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: var(--white);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+            text-align: center;
+        }
+        
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid var(--secondary-color);
+            margin: 0 auto 20px;
+            display: block;
+        }
+        
+        h1 {
+            color: var(--dark-pink);
+            margin-bottom: 10px;
+        }
+        
+        p {
+            color: var(--text-color);
+            margin-bottom: 30px;
+        }
+        
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            border-radius: 50px;
+            text-decoration: none;
+            color: var(--white);
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .social-link i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        
+        .tiktok {
+            background-color: #000000;
+        }
+        
+        .whatsapp {
+            background-color: #25D366;
+        }
+        
+        .instagram {
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+        }
+        
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: var(--dark-pink);
+        }
+        
+        @media (max-width: 500px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .social-link {
+                padding: 12px;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <img src="pp.jpg" alt="Pp" class="profile-image">
+        
+        <h1>slmjisngggg</h1>
+        <p>Follow:</p>
+        
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@slmmjieeee?_t=ZS-8xdQACkp4JY&_r=1" class="social-link tiktok" id="tiktok-btn">
+                <i class="fab fa-tiktok"></i>
+                TikTok
+            </a>
+            
+            <a href="https://wa.me/6289526698936" class="social-link whatsapp" id="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i>
+                WhatsApp
+            </a>
+            
+            <a href="https://www.instagram.com/ultramenberkaki3?igsh=dTc5amF2aHA3ZzJ3" class="social-link instagram" id="instagram-btn">
+                <i class="fab fa-instagram"></i>
+                Instagram:ultramenberkaki3
+            </a>
+                        <a href="https://www.instagram.com/sccndsalll?igsh=MXZnbzBtdTcwbWc0dg==" class="social-link instagram" id="instagram-btn">
+                <i class="fab fa-instagram"></i>
+                Instagram:sccndsalll
+            </a>
+        </div>
+        
+        <p class="footer">pollow ak y besttt🤗😘❤</p>
+        <p>© 30 jun 2025 by.Candra X Coding</p>
+    </div>
+
+    <script>
+        // Ask user for their social media links
+        const tiktokBtn = document.getElementById('tiktok-btn');
+        const whatsappBtn = document.getElementById('whatsapp-btn');
+        const instagramBtn = document.getElementById('instagram-btn');
+    </script>
+</body>
+</html>
+
